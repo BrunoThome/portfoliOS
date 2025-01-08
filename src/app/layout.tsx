@@ -24,9 +24,9 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="overflow-hidden">
 			<body
-				className={`${tahoma.variable} antialiased flex flex-col h-screen w-screen`}
+				className={`${tahoma.variable} antialiased flex flex-col h-screen w-screen select-none`}
 			>
-				<main className="w-full h-full max-w-full max-h-full relative bg-[url('/wallpaper.webp')] bg-cover">
+				<main className="w-full h-full max-w-full max-h-full relative bg-[url('/wallpaper.webp')] bg-cover bg-center">
 					{children}
 				</main>
 				<Taskbar />
